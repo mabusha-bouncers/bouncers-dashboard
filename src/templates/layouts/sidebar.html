@@ -1,0 +1,65 @@
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>Admin</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-dashboard"></i> Dashboard <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="{{ url_for('dashboard.dash_messaging') }}">Messaging</a></li>
+                      <li><a href="{{ url_for('dashboard.dash_rates') }}">Rates</a></li>
+                      <li><a href="{{ url_for('dashboard.dash_payroll') }}">Payroll</a></li>
+                      <li><a href="{{ url_for('dashboard.dash_payments') }}">Payments</a></li>
+                      <li><a href="{{ url_for('dashboard.dash_schedules') }}">Schedules</a></li>
+                      <li><a href="{{ url_for('dashboard.dash_reports') }}">Reports</a></li>
+                    </ul>
+                  </li>
+                  <li title="Manual Data Entry"><a><i class="fa fa-file"></i> Service Area <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">List</a></li>
+                      <li><a href="#">Add</a></li>
+                      <li><a href="#">Delete</a></li>
+                      <li><a href="#">Reports</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-file-archive-o"></i> Bouncers <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">List</a></li>
+                      <li><a href="#">Manage</a></li>
+                      <li><a href="#">Reports</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-file-archive-o"></i> Clients <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">List</a></li>
+                      <li><a href="#">Manage</a></li>
+                      <li><a href="#">Reports</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-file-archive-o"></i> Help Desk <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="#">Conflict Resolution</a></li>
+                      <li><a href="#">Help Messages</a></li>
+                      <li><a href="#">Other Messages</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            <!-- /sidebar menu -->
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Login" href="#">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
