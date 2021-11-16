@@ -14,6 +14,15 @@ def dashboard():
     return render_template('index.html')
 
 
+@dashboard_bp.route('/dash/company', methods=['GET', 'POST'])
+def dash_company():
+    """
+        **dashboard**
+    :return:
+    """
+    return render_template('dashboard/company.html')
+
+
 @dashboard_bp.route('/dash/messaging', methods=['GET', 'POST'])
 def dash_messaging():
     """

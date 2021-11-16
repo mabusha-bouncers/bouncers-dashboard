@@ -8,13 +8,66 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="row">
-						<div class="col-md-12 col-sm-12 ">
-
-						</div>
+                        <div class="col-md-12 col-sm-12 ">
+                            <span> Setup message centers and default notifications email and cell numbers here for admin purposes only </span>
+                            <hr/>
+                            <div class="clearfix"></div>
+							<form class="form-horizontal">
+								<div class="form-group">
+                                    <div class="form-group">
+                                        Notification Email Addresses
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+									<label for="admin_email" class="fa fa-envelope"> Email</label>
+									<div class="input-group">
+										<input class="form-control"
+											   id="admin_email"
+											   name="admin_email"
+											   placeholder="Admin Email"
+										/>
+									</div>
+								</div>
+                                <div class="form-group">
+                                    <button
+                                            class="btn btn-sm btn-primary">
+                                            <i class="fa fa-plus"> </i> Add Email
+                                    </button>
+                                    <button class="btn btn-sm btn-danger">
+                                        <i class="fa fa-minus"> </i>
+                                        Remove Email
+                                    </button>
+                                </div>
+                            </form>
+                            <span>
+                                Notifications Cell Numbers
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </span>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="admin_cell" class="fa fa-mobile"> Cell</label>
+									<div class="input-group">
+										<input class="form-control"
+											   id="admin_cell"
+											   name="admin_cell"
+											   placeholder="Admin Cell"
+										/>
+									</div>
+								</div>
+                                <div class="form-group">
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="fa fa-plus"> </i>
+                                        Add Cell</button>
+                                    <button class="btn btn-sm btn-danger">
+                                        <i class="fa fa-minus"> </i>
+                                        Remove Cell</button>
+                                </div>
+							</form>
+                        </div>
 					</div>
-
           </div>
-
-
 {% endblock content %}
 

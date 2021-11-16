@@ -6,6 +6,7 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-dashboard"></i> Dashboard <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
+                      <li><a href="{{ url_for('dashboard.dash_company') }}">Company</a></li>
                       <li><a href="{{ url_for('dashboard.dash_messaging') }}">Messaging</a></li>
                       <li><a href="{{ url_for('dashboard.dash_rates') }}">Rates</a></li>
                       <li><a href="{{ url_for('dashboard.dash_payroll') }}">Payroll</a></li>
