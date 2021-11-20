@@ -1,7 +1,4 @@
-
-
 from flask import Blueprint, render_template
-
 dashboard_bp = Blueprint('dashboard', __name__)
 
 
@@ -44,7 +41,6 @@ def dash_payroll():
 @dashboard_bp.route('/dash/rates', methods=['GET', 'POST'])
 def dash_rates():
     """
-
     :return:
     """
     return render_template('dashboard/rates.html')
